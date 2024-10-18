@@ -18,7 +18,6 @@ body {
   min-height: 100vh;
   display: flex;
   font-family: 'Fira Sans', sans-serif;
-  overflow-y: hidden; /* Oculta el scroll vertical que genera el navegador */
   overflow-x: hidden; /* Oculta el scroll vertical que genera el navegador */
 }
 
