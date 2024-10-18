@@ -1,0 +1,218 @@
+/* Inicio del menú */
+.nav-container {
+  width: 100%;
+  background-color: #28a745; /* Color de fondo del menú */
+  padding: 10px;
+  text-align: center;
+}
+
+.logo {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.logo img {
+  vertical-align: middle;
+}
+
+.nav-header {
+  background-color: #28a745; /* Color de fondo del header */
+  padding: 10px;
+  text-align: center;
+}
+
+.nav-title {
+  color: #ffc107; /* Color del título */
+  font-weight: 600;
+}
+
+.nav-close {
+  background-color: #dc3545; /* Color de fondo del botón de cierre */
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.nav-close span {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: #fff;
+  margin: 5px auto;
+}
+
+.nav-toggler {
+  background-color: #ffc107; /* Color de fondo del botón de toggler */
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.nav-toggler span {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: #fff;
+  margin: 5px auto;
+}
+
+.nav-menu {
+  display: none;
+}
+
+.nav-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu li {
+  margin-bottom: 10px;
+}
+
+.nav-menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #28a745;
+  padding: 10px;
+  display: none;
+}
+
+.dropdown-menu li {
+  margin-bottom: 10px;
+}
+
+.dropdown-menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+} /* Fin del menú */
+
+/* Estilos básicos para el carrusel y el footer */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease;
+  width: 300%; /* 100% por cada imagen */
+}
+
+.carousel-item {
+  min-width: 100%;
+  position: relative;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+.mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.carousel-controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.carousel-control {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+/* Estilos para el footer */
+.footer {
+  background-color: #28a745;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-icon {
+  list-style: none;
+  padding: 0;
+}
+
+.social-icon li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  display: inline;
+  margin: 0 10px;
+}
+
+/* Estilos para el checkbox hack */
+input[type="radio"] {
+  display: none; /* Ocultar los radios */
+}
+
+#slide1:checked ~ .carousel-inner {
+  transform: translateX(0);
+}
+
+#slide2:checked ~ .carousel-inner {
+  transform: translateX(-100%);
+}
+
+#slide3:checked ~ .carousel-inner {
+  transform: translateX(-200%);
+}
+
+/* Estilos adicionales */
+.navbar-toggler {
+  border: none;
+  font-size: 1;
+}
