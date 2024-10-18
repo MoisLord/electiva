@@ -33,15 +33,6 @@ body {
   padding: 0.5rem;
 }
 
-.logo {
-  display: inline-block;
-  margin-right: 20px;
-}
-
-.logo img {
-  vertical-align: middle;
-}
-
 .nav-close {
   background-color: #dc3545; /* Color de fondo del botón de cierre */
   border: none;
@@ -59,11 +50,8 @@ body {
 }
 
 .nav-toggler {
-  background-color: #ffc107; /* Color de fondo del botón de toggler */
   border: none;
-  padding: 10px;
-  font-size: 18px;
-  cursor: pointer;
+  font-size: 1.25rem;
 }
 
 .nav-toggler span {
@@ -91,6 +79,15 @@ body {
 .nav-menu a {
   color: #fff;
   text-decoration: none;
+}
+
+.logo {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.logo img {
+  vertical-align: middle;
 }
 
 .dropdown {
