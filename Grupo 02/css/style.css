@@ -169,10 +169,15 @@ body {
 
 /* Estilos para el footer */
 .footer {
-  background-color: #28a745;
-  color: white;
-  padding: 20px;
-  text-align: center;
+    position: relative;
+    width: 100%;
+    background: #fc4700;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .social-icon {
