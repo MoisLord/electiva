@@ -16,11 +16,6 @@
   padding: 0.5rem;
 }
 
-.navbar{
-  background-image: linear-gradient(to right,#7DDA58,#FFDE59,#FE9900,#E4080A,#BFD641);
-  
-}
-
 .logo {
   display: inline-block;
   margin-right: 20px;
