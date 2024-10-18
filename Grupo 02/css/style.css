@@ -7,7 +7,7 @@
 /* Inicio del menú */
 .nav-container {
   width: 100%;
-  background-color: #28a745; /* Color de fondo del menú */
+  background-image: linear-gradient(to right,#7DDA58,#FFDE59,#FE9900,#E4080A,#BFD641); /* Color de fondo del menú */
   padding: 10px;
   text-align: center;
   align-content: center;
