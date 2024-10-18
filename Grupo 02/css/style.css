@@ -1,3 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
 /* Inicio del menú */
 .nav-container {
   width: 100%;
@@ -108,12 +115,6 @@
 } /* Fin del menú */
 
 /* Estilos básicos para el carrusel y el footer */
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
-}
 
 .carousel {
   position: relative;
