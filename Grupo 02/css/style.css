@@ -4,6 +4,7 @@
   background-color: #28a745; /* Color de fondo del menú */
   padding: 10px;
   text-align: center;
+  align-content: center;
 }
 
 .logo {
