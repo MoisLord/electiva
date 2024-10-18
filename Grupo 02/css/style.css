@@ -42,17 +42,6 @@ body {
   vertical-align: middle;
 }
 
-.nav-header {
-  background-color: #28a745; /* Color de fondo del header */
-  padding: 10px;
-  text-align: center;
-}
-
-.nav-title {
-  color: #ffc107; /* Color del título */
-  font-weight: 600;
-}
-
 .nav-close {
   background-color: #dc3545; /* Color de fondo del botón de cierre */
   border: none;
@@ -148,7 +137,6 @@ body {
 
 .carousel-item img {
   object-fit: cover;
-  position: relative;
   width: 100%;
   height: 100vh;
   
@@ -224,13 +212,33 @@ footer a:hover {
 }
 
 .social-icon {
-  list-style: none;
-  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 10px 5px;
+  flex-wrap: wrap;
 }
 
-.social-icon li {
-  display: inline;
+.icon-elem {
+  list-style: none;
+}
+
+.icon {
+  color: #fff;
+  font-size: 32px;
+  width: 32px;
+  height: 32px;
+  display: inline-block;
   margin: 0 10px;
+  opacity: 0.65;
+  transition: 0.5s;
+}
+
+.icon:hover {
+  transform: translateY(-10px);
+  opacity: 1;
+  color: #fff;
 }
 
 .menu {
