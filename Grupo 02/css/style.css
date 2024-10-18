@@ -169,15 +169,36 @@ body {
 
 /* Estilos para el footer */
 .footer {
-    position: relative;
-    width: 100%;
-    background: #fc4700;
-    min-height: 100px;
-    padding: 20px 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  position: relative;
+  width: 100%;
+  background: #fc4700;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer ul {
+  list-style: none; /* quita los puntos de la lista */
+  margin: 0; /* quita el margen */
+  padding: 0; /* quita el padding */
+  display: flex; /* hace que los elementos se muestren en línea */
+  justify-content: center; /* distribuye los elementos en línea */
+}
+
+footer li {
+  margin-right: 20px; /* espacio entre los elementos */
+}
+
+footer a {
+  color: #337ab7; /* texto azul */
+  text-decoration: none; /* quita el subrayado */
+}
+
+footer a:hover {
+  color: #23527c; /* texto azul oscuro al pasar el mouse */
 }
 
 .social-icon {
