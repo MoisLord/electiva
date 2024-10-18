@@ -111,13 +111,14 @@ body {
 }
 
 .dropdown-menu a {
-  color: #c40aa5;
+  color: #fff;
   text-decoration: none;
 }
 
 .dropdown:hover .dropdown-menu {
   display: block;
-} /* Fin del menú */
+}
+/* Fin del menú */
 
 /* Estilos básicos para el carrusel y el footer */
 
