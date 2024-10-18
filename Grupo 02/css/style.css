@@ -1,3 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  flex-direction: column;
+  min-height: 100vh;
+  display: flex;
+  font-family: 'Fira Sans', sans-serif;
+  overflow-x: hidden; /* Oculta el scroll vertical que genera el navegador */
+}
+
 /* Inicio del menú */
 .nav-container {
   width: 100%;
@@ -108,12 +131,6 @@
 } /* Fin del menú */
 
 /* Estilos básicos para el carrusel y el footer */
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
-}
 
 .carousel {
   position: relative;
