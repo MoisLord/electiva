@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+    background-image: linear-gradient(to right,#7DDA58,#FFDE59,#FE9900,#E4080A,#BFD641); /* Color de fondo del menú */
+}
+
+#btn-menu {
+    display: none;
+}
+
+header label {
+    display: none;
+    width:  30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid #fff;
+}
+
+header label:hover {
+    cursor: pointer;
+    background: rgba(0,0,0,0.3);
+}
+
+.nav-menu ul {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-menu li {
+    border-right: 1px solid #fff;
+}
+
+.nav-menu li:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.nav-menu li a {
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    width: 100%;
+}
+
+
+@media (max-width: 768px) {
+    header label {
+        display: block;
+    }
+    .nav-menu {
+        position: absolute;
+        background: #ffc107;
+        width: 70%;
+        margin-left: -70%;
+        transition: all 0.5s;
+
+    }
+    .nav-menu ul {
+        flex-direction: column;
+    }
+    .nav-menu li{
+        border-top: 1px solid #fff;
+    }
+
+    #btn-menu:checked ~ .nav-menu {
+        margin: 0;
+    }
+}
+/* Menu desplegable para Inventario */
+/* .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #28a745;
+    padding: 10px;
+    display: none;
+  }
+  
+  .dropdown-menu li {
+    margin-bottom: 10px;
+  }
+  
+  .dropdown-menu a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  } */
+  /*Fin del Menu desplegable para Inventario */
+  /* Fin del menú */
+
+  /* Estilos para el footer */
+.footer {
+    position: relative;
+    width: 100%;
+    background: #fc4700;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  footer ul {
+    list-style: none; /* quita los puntos de la lista */
+    margin: 0; /* quita el margen */
+    padding: 0; /* quita el padding */
+    display: flex; /* hace que los elementos se muestren en línea */
+    justify-content: center; /* distribuye los elementos en línea */
+  }
+  
+  footer li {
+    margin-right: 20px; /* espacio entre los elementos */
+  }
+  
+  footer a {
+    color: #337ab7; /* texto azul */
+    text-decoration: none; /* quita el subrayado */
+  }
+  
+  footer a:hover {
+    color: #23527c; /* texto azul oscuro al pasar el mouse */
+  }
+  
+  .social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 5px;
+    flex-wrap: wrap;
+  }
+  
+  .icon-elem {
+    list-style: none;
+  }
+  
+  .icon {
+    color: #fff;
+    font-size: 32px;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    margin: 0 10px;
+    opacity: 0.65;
+    transition: 0.5s;
+  }
+  
+  .icon:hover {
+    transform: translateY(-10px);
+    opacity: 1;
+    color: #fff;
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  /* Estilos para el checkbox hack */
+  input[type="radio"] {
+    display: none; /* Ocultar los radios */
+  }
+  
+  #slide1:checked ~ .carousel-inner {
+    transform: translateX(0);
+  }
+  
+  #slide2:checked ~ .carousel-inner {
+    transform: translateX(-100%);
+  }
+  
+  #slide3:checked ~ .carousel-inner {
+    transform: translateX(-200%);
+  }
+  
+  /* Estilos adicionales */
+  .navbar-toggler {
+    border: none;
+    font-size: 1;
+  }
