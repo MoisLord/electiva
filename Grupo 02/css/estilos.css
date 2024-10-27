@@ -209,18 +209,4 @@ footer a:hover {
   display: inline;
   margin: 0 10px;
 }
-
-@media (max-width: 768px) {
-  .footer {
-    position: absolute;
-    width: 100%;
-    background: #fc4700;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-  }
-
-}
 /*fin de los estilos para el footer*/
