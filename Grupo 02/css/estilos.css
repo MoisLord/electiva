@@ -203,13 +203,16 @@ footer a:hover {
 .menu {
   list-style: none;
   padding: 0;
+  display: flex; /* Hace que los elementos se muestren en línea */
+  flex-wrap: wrap; /* Permite que los elementos se ajusten a la siguiente línea si no hay suficiente espacio */
+  justify-content: center; /* Distribuye los elementos en línea */
 }
 
 .menu li {
-  display: inline;
-  margin: 0 10px;
-  padding: 0 10px;
-  display: flex; /* hace que los elementos se muestren en línea */
-  justify-content: center; /* distribuye los elementos en línea */
+  margin: 5px; /* Espacio entre los elementos */
+  padding: 10px; /* Espacio interno */
+  flex: 1 1 auto; /* Permite que los elementos crezcan y se encojan según el espacio disponible */
+  min-width: 100px; /* Ancho mínimo para cada elemento */
+  text-align: center; /* Centra el texto dentro de cada elemento */
 }
 /*fin de los estilos para el footer*/
