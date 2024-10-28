@@ -260,11 +260,10 @@ footer a:hover {
 @media (max-width: 768px) {
   .menu li {
     flex: 1 1 100%; /* Cada elemento ocupará el 100% del ancho en pantallas pequeñas */
-    font-size: 9px; /* Tamaño de fuente más pequeño */
   }
 
   .footer {
-    font-size: 5px; /* Tamaño de fuente más pequeño */
+    font-size: 12px; /* Tamaño de fuente más pequeño */
     padding: 10px; /* Relleno reducido */
     text-align: center; /* Centrar el texto */
   }
