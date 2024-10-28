@@ -133,10 +133,20 @@ img {
     height: 50vh; /* Ajusta la altura en pantallas más pequeñas */
     width: 50vh; /* Ajusta la anchura en pantallas más pequeñas */
   }
+  .mask{
+    height: 50vh; /* Ajusta la altura en pantallas más pequeñas */
+    width: 50vh; /* Ajusta la anchura en pantallas más pequeñas */
+  }
 }
 
 @media (min-width: 768px) {
   .carousel-item img {
+    height: 100vh; /* Mantiene la altura completa en pantallas grandes */
+  }
+  .carousel-caption{
+    height: 100vh; /* Mantiene la altura completa en pantallas grandes */
+  }
+  .mask{
     height: 100vh; /* Mantiene la altura completa en pantallas grandes */
   }
 }
