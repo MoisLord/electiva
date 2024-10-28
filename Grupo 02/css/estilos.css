@@ -209,8 +209,8 @@ footer a:hover {
 }
 
 .menu li {
-  margin: s5px; /* Espacio entre los elementos */
-  padding: 10px; /* Espacio interno */
+  margin: 5px; /* Espacio entre los elementos */
+  padding: 5px; /* Espacio interno */
   flex: 1 1 auto; /* Permite que los elementos crezcan y se encojan según el espacio disponible */
   min-width: 100px; /* Ancho mínimo para cada elemento */
   text-align: center; /* Centra el texto dentro de cada elemento */
