@@ -124,6 +124,15 @@ img {
   max-height: 100vh; /* Limita la altura máxima a la altura de la ventana */
 }
 
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 5vh; /* Ajusta la altura en pantallas más pequeñas */
+  }
+  .carousel-caption{
+    height: 5vh; /* Ajusta la altura en pantallas más pequeñas */
+  }
+}
+
 @media (min-width: 768px) {
   .carousel-item img {
     height: 100vh; /* Mantiene la altura completa en pantallas grandes */
