@@ -146,19 +146,23 @@ img {
     height: 50vh; /* Ajusta la altura en pantallas más pequeñas */
     width: 50vh; /* Ajusta la anchura en pantallas más pequeñas */
   }
+
   .carousel-item img {
     height: 50vh; /* Ajusta la altura en pantallas más pequeñas */
     width: 50vh; /* Ajusta la anchura en pantallas más pequeñas */
   }
+
   .carousel-inner {
     height: 50vh; /* Ajusta la altura en pantallas más pequeñas */
     width: 50vh; /* Ajusta la anchura en pantallas más pequeñas */
   }
+
   .carousel-caption{
     height: 20vh; /* Ajusta la altura en pantallas más pequeñas */
     width: 20vh; /* Ajusta la anchura en pantallas más pequeñas */
     flex: 1 1 100%; /* Cada elemento ocupará el 100% del ancho en pantallas pequeñas */
   }
+  
   .mask{
     height: 50vh; /* Ajusta la altura en pantallas más pequeñas */
     width: 50vh; /* Ajusta la anchura en pantallas más pequeñas */
@@ -257,7 +261,7 @@ footer a:hover {
   .menu li {
     flex: 1 1 100%; /* Cada elemento ocupará el 100% del ancho en pantallas pequeñas */
   }
-  
+
   .footer {
     font-size: 12px; /* Tamaño de fuente más pequeño */
     padding: 10px; /* Relleno reducido */
