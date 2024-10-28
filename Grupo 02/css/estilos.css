@@ -150,6 +150,10 @@ img {
     height: 50vh; /* Ajusta la altura en pantallas más pequeñas */
     width: 50vh; /* Ajusta la anchura en pantallas más pequeñas */
   }
+  .carousel-inner {
+    height: 50vh; /* Ajusta la altura en pantallas más pequeñas */
+    width: 50vh; /* Ajusta la anchura en pantallas más pequeñas */
+  }
   .carousel-caption{
     height: 50vh; /* Ajusta la altura en pantallas más pequeñas */
     width: 50vh; /* Ajusta la anchura en pantallas más pequeñas */
