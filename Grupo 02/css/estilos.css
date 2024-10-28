@@ -22,6 +22,18 @@ header {
   background-image: linear-gradient(to right,#7DDA58,#FFDE59,#FE9900,#E4080A,#BFD641); /* Color de fondo del menú */
 }
 
+@media (max-width: 768px) {
+  header {
+    height: 50vh; /* Ajusta la altura en pantallas más pequeñas */
+  }
+}
+
+@media (min-width: 769px) {
+  header {
+    height: 100vh; /* Mantiene la altura completa en pantallas grandes */
+  }
+}
+
 #btn-menu {
   display: none;
 }
