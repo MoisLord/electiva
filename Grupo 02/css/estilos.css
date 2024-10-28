@@ -257,5 +257,17 @@ footer a:hover {
   .menu li {
     flex: 1 1 100%; /* Cada elemento ocupará el 100% del ancho en pantallas pequeñas */
   }
+  
+  .footer {
+    font-size: 12px; /* Tamaño de fuente más pequeño */
+    padding: 10px; /* Relleno reducido */
+    text-align: center; /* Centrar el texto */
+  }
+
+  .footer a {
+    display: block; /* Hacer que los enlaces ocupen toda la línea */
+    margin: 5px 0; /* Espaciado entre enlaces */
+    color: #000; /* Color de texto */
+  }
 }
 /*fin de los estilos para el footer*/
