@@ -215,4 +215,10 @@ footer a:hover {
   min-width: 100px; /* Ancho mínimo para cada elemento */
   text-align: center; /* Centra el texto dentro de cada elemento */
 }
+
+@media (max-width: 768px) {
+  .menu li {
+    flex: 1 1 100%; /* Cada elemento ocupará el 100% del ancho en pantallas pequeñas */
+  }
+}
 /*fin de los estilos para el footer*/
