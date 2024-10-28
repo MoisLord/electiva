@@ -28,12 +28,6 @@ header {
   }
 }
 
-@media (min-width: 769px) {
-  header {
-    height: 100vh; /* Mantiene la altura completa en pantallas grandes */
-  }
-}
-
 #btn-menu {
   display: none;
 }
