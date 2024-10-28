@@ -72,7 +72,7 @@ img {
 }
 
 
-@media (max-width: 15100px) {
+@media (max-width: 1550px) {
   header label {
       display: block;
   }
@@ -134,25 +134,25 @@ img {
 }
 .carousel-caption {
   position: absolute;
-  top: 100%;
-  left: 100%;
-  transform: translate(-100%, -100%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: white;
   text-align: center;
 }
 
 @media (max-width: 768px) {
   .carousel-item {
-    height: 100vh; /* Ajusta la altura en pantallas más pequeñas */
-    width: 100vh; /* Ajusta la anchura en pantallas más pequeñas */
+    height: 50vh; /* Ajusta la altura en pantallas más pequeñas */
+    width: 50vh; /* Ajusta la anchura en pantallas más pequeñas */
   }
   .carousel-item img {
-    height: 100vh; /* Ajusta la altura en pantallas más pequeñas */
-    width: 100vh; /* Ajusta la anchura en pantallas más pequeñas */
+    height: 50vh; /* Ajusta la altura en pantallas más pequeñas */
+    width: 50vh; /* Ajusta la anchura en pantallas más pequeñas */
   }
   .carousel-inner {
-    height: 100vh; /* Ajusta la altura en pantallas más pequeñas */
-    width: 100vh; /* Ajusta la anchura en pantallas más pequeñas */
+    height: 50vh; /* Ajusta la altura en pantallas más pequeñas */
+    width: 50vh; /* Ajusta la anchura en pantallas más pequeñas */
   }
   .carousel-caption{
     height: 20vh; /* Ajusta la altura en pantallas más pequeñas */
@@ -160,8 +160,8 @@ img {
     flex: 1 1 100%; /* Cada elemento ocupará el 100% del ancho en pantallas pequeñas */
   }
   .mask{
-    height: 100vh; /* Ajusta la altura en pantallas más pequeñas */
-    width: 100vh; /* Ajusta la anchura en pantallas más pequeñas */
+    height: 50vh; /* Ajusta la altura en pantallas más pequeñas */
+    width: 50vh; /* Ajusta la anchura en pantallas más pequeñas */
   }
 }
 
@@ -179,7 +179,7 @@ img {
   width: 100%;
   background: #fc4700;
   min-height: 100px;
-  padding: 20px 100px;
+  padding: 20px 50px;
   display: flex;
   justify-content: center;
   align-items: center;
