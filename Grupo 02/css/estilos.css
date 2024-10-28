@@ -157,7 +157,7 @@ img {
   .carousel-caption{
     height: 20vh; /* Ajusta la altura en pantallas más pequeñas */
     width: 20vh; /* Ajusta la anchura en pantallas más pequeñas */
-    display: wrap;
+    flex: 1 1 100%; /* Cada elemento ocupará el 100% del ancho en pantallas pequeñas */
   }
   .mask{
     height: 50vh; /* Ajusta la altura en pantallas más pequeñas */
