@@ -211,7 +211,7 @@ footer a:hover {
   list-style: none;
   padding: 0;
   display: flex; /* Hace que los elementos se muestren en línea */
-  flex-wrap: wrap; /* Permite que los elementos se ajusten a la siguiente línea si no hay suficiente espacio */
+  flex-wrap: nowrap; /* Permite que los elementos se ajusten a la siguiente línea si no hay suficiente espacio */
   justify-content: center; /* Distribuye los elementos en línea */
 }
 
