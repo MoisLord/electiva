@@ -160,12 +160,6 @@ img {
   .carousel-item img {
     height: 100vh; /* Mantiene la altura completa en pantallas grandes */
   }
-  .carousel-caption{
-    height: 100vh; /* Mantiene la altura completa en pantallas grandes */
-  }
-  .mask{
-    height: 100vh; /* Mantiene la altura completa en pantallas grandes */
-  }
 }
 
 /* fin de estilos del carrusel no animado*/
