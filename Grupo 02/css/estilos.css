@@ -126,10 +126,10 @@ img {
 
 @media (max-width: 768px) {
   .carousel-item img {
-    height: 100vh; /* Ajusta la altura en pantallas más pequeñas */
+    height: 90vh; /* Ajusta la altura en pantallas más pequeñas */
   }
   .carousel-caption{
-    height: 100vh; /* Ajusta la altura en pantallas más pequeñas */
+    height: 90vh; /* Ajusta la altura en pantallas más pequeñas */
   }
 }
 
