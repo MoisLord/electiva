@@ -203,12 +203,13 @@ footer a:hover {
 .menu {
   list-style: none;
   padding: 0;
-  display: flex; /* hace que los elementos se muestren en línea */
-  justify-content: center; /* distribuye los elementos en línea */
 }
 
 .menu li {
   display: inline;
   margin: 0 10px;
+  padding: 0 10px;
+  display: flex; /* hace que los elementos se muestren en línea */
+  justify-content: center; /* distribuye los elementos en línea */
 }
 /*fin de los estilos para el footer*/
