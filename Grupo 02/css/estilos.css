@@ -254,6 +254,10 @@ footer a:hover {
 }
 
 @media (max-width: 768px) {
+  .footer{
+    height: 50vh; /* Ajusta la altura en pantallas más pequeñas */
+    width: 50vh; /* Ajusta la anchura en pantallas más pequeñas */
+  }
   .menu li {
     flex: 1 1 100%; /* Cada elemento ocupará el 100% del ancho en pantallas pequeñas */
   }
