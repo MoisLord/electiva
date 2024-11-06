@@ -1,0 +1,98 @@
+/* INTEGRANTES
+Moises Contreras C.I: 30.405.571
+Adrian Duin C.I.: 29.896.041
+David Peña C.I. 30.304.373
+Frangher Pereira C.I. 30.553.759
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  header {
+    width: 100%;
+    background-image: linear-gradient(to right,#7DDA58,#FFDE59,#FE9900,#E4080A,#BFD641); /* Color de fondo del menú */
+  }
+  
+  #btn-menu {
+    display: none;
+  }
+  
+  header label {
+    display: none;
+    width:  30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid #fff;
+  }
+  
+  header label:hover {
+    cursor: pointer;
+    background: rgba(0,0,0,0.3);
+  }
+  
+  .nav-menu ul {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .nav-menu li {
+    border-right: 1px solid #fff;
+  }
+  
+  .nav-menu li:hover {
+    background: rgba(0, 0, 0, 0.3);
+  }
+  
+  .nav-menu li a {
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  
+  @media (max-width: 1550px) {
+    header label {
+        display: block;
+    }
+    .nav-menu {
+        position: relative;
+        background: #ffc107;
+        width: 70%;
+        margin-left: -70%;
+        transition: all 0.5s;
+  
+    }
+    .nav-menu ul {
+        flex-direction: column;
+    }
+    .nav-menu li{
+        border-top: 1px solid #fff;
+    }
+  
+    #btn-menu:checked ~ .nav-menu {
+        margin: 0;
+    }
+  }
+  
