@@ -3,8 +3,8 @@ window.location.reload()
 // Esperar a que el DOM esté completamente cargado
 document.addEventListener("DOMContentLoaded", function() {
     // Seleccionar los elementos por su ID
-    const proveedoresLink = document.getElementById("proveedores");
     const categoriasLink = document.getElementById("categorias");
+    const proveedoresLink = document.getElementById("proveedores");
 
     // Agregar evento de clic para "MODELO DE PRODUCTOS"
     modeloLink.addEventListener("click", function(event) {
