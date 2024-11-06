@@ -6,68 +6,126 @@ Frangher Pereira C.I. 30.553.759
 -->
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <title>Menu horizontal responsive</title>
-        <meta name="viewport" content="width=device-width, user-scalable=no, inicial-scale=1, maximun-scale=1, minimun-scale=1" charset="UTF-8" >
-        <link rel="stylesheet" href="css/estilos.css">
-    </head>
-    <body>
-        <header>
-            
-            <input type="checkbox" id="btn-menu">
-            <label for="btn-menu"><img src="img/logo.png" style="width: 25px; direction: ltr; margin-top: -8px; margin-left: -10px;"></label>
-            <nav class="nav-menu">
-                <ul>
-                    <img src="img/logo.png" alt="" style="width:50px;">
-                        <li><a href="indexAE1Grupo02.html" style="font-weight: 600; font-size: 14;">FRUTILARA</a></li>
-                        <li><a href="#" style="font-weight: 600; font-size: 14;">MARCAS DE PRODUCTOS</a></li>
-                        <li><a href="#" style="font-weight: 600; font-size: 14;">MODELO DE PRODUCTOS</a></li>
-                        <li><a href="#" style="font-weight: 600; font-size: 14;">CATEGORIAS DE PRODUCTOS</a></li>
-                        <li><a href="#" style="font-weight: 600; font-size: 14;">PRODUCTOS</a></li>
-                        <li><a href="#" style="font-weight: 600; font-size: 14;">PROVEEDORES</a></li>
-                        <li><a href="#" style="font-weight: 600; font-size: 14;">EMPLEADOS</a></li>
-                        <li><a href="#" style="font-weight: 600; font-size: 14;">CLIENTES</a></li>
-                            <li><a href="#" style="font-weight: 600; font-size: 14;">NOTAS DE ENTRADA</a></li>
-                            <li><a href="#" style="font-weight: 600; font-size: 14;">NOTAS DE SALIDA</a></li>                                               
-                        <li><a href="#" style="font-weight: 600; font-size: 14;">USUARIOS</a></li>
-                </ul>
-            </nav>
-        </header>
-        <div class="carousel">
-            <div class="carousel-inner">
-                
-                <div class="carousel-item">
-                    <img src="img/fondo.jpg" alt="Fondo 1">
-                    <div class="mask"></div>
-                    <div class="carousel-caption">
-                        <h1>Bienvenido a Frutilara</h1>
-                        <p>donde comer saludable es más sabroso</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <footer class="footer">
-            <ul class="social-icon">
-                <li>
-                    <a href="https://www.instagram.com/fruti_lara?igsh=MWh5MW9mb3JpOGlxYg==" class="icon">
-                      <img src="img/instagram.png" style="width: 50px;">
-                    </a>
-                </li>
-            </ul>
-            <br>
-            <ul class="menu">
-                <li><a href="#" style="color: aliceblue;">MARCAS DE PRODUCTOS</a></li>
-                <li><a href="#" style="color: aliceblue;">MODELO DE PRODUCTOS</a></li>
-                <li><a href="#" style="color: aliceblue;">CATEGORIAS DE PRODUCTOS</a></li>
-                <li><a href="#" style="color: aliceblue;">PRODUCTOS</a></li>
-                <li><a href="#" style="color: aliceblue;">PROVEEDORES</a></li>
-                <li><a href="#" style="color: aliceblue;">EMPLEADOS</a></li>
-                <li><a href="#" style="color: aliceblue;">CLIENTES</a></li>
-                <li><a href="#" style="color: aliceblue;">INVENTARIO</a></li>
-                <li><a href="#" style="color: aliceblue;">USUARIOS</a></li>
-            </ul>
-            <br>
-            <p style="color: aliceblue;">Frutilara | donde comer saludable es más sabroso</p>
-        </footer>
-        </body>
-    </html>
+    <title>CATEGORIAS</title>
+<?php require_once("comunes/encabezado.php"); ?>
+<body>
+<!--Llamar al archivo modal.php, y menu.php-->
+<?php require_once("comunes/modal.php"); ?>
+<?php require_once('comunes/menu.php'); ?>
+<div class="container text-center h2 text-success">
+<hr/>
+<hr/>
+<hr/>
+<hr/>
+<hr/>
+<hr/>
+CATEGORIAS DE PRODUCTOS
+<hr class="border border-success border-3 opacity-65">
+</div>
+<div class="container-fluid row"> <!-- comienzo del contenedor de campos -->
+   <form class="col-4 p-2" method="post" id="f" autocomplete="off">
+   <h4 class="text-center text-success">Registro de Categorias de Productos</h4>
+	
+	<div class="container">	
+		<div class="row mb-3">
+			<div class="col-md">
+			<input class="form-control" style="display: none;" type="text" id="id_categoria" name="id_categoria"/>
+			   <label for="codigo_categoria">Codigo de categoria</label>
+			   <input class="form-control" type="text" id="codigo_categoria" name="codigo_categoria"/>
+			   <span>El codigo debe ser numerico, alfabetico o alfanumerico, entre 7 y 8 digitos</span>
+			   </div>
+			   <span id="scodigo_categoria" class="alert alert-success"></span>
+			</div>
+			<div class="row mb-3">
+			<div class="col-md">
+			   <label for="descripcion_categoria">Descripción de la categoria</label>
+			   <input class="form-control" type="text" id="descripcion_categoria" name="descripcion_categoria"/>
+			   <span>Debe colocar una categoria de producto con solo letras, entre 3 a 20 digitos</span>
+			</div>
+			<span id="sdescripcion_categoria" class="alert alert-success"></span>
+		</div>
+		<div class="row mb-3">    
+        <div class="col-md-12">
+					   <label for="unidadMedNormal">Unidad de medida común</label>
+					   <select class="form-control" id="unidadMedNormal">
+					   		<option selected>Seleccione una unidad de medida</option>
+							<option value="KILOGRAMOS">Kilogramos</option>
+							<option value="MILIGRAMOS">Miligramos</option>
+							<option value="LITROS">Litros</option>
+							<option value="MILITROS">Militros</option>
+							<option value="UNIDADES">Unidades</option>
+					   </select>
+					</div>
+					</div>
+					<div class="row mb-3">
+					<div class="col-md-12">
+					   <label for="unidadMedAlt">Unidad de Medida Alternativa</label>
+					   <select class="form-control" id="unidadMedAlt">
+					   		<option selected>Seleccione una unidad de medida</option>
+					   		<option value="N/A">No aplica</option>
+							<option value="CAJAS">Cajas</option>
+							<option value="CESTAS">Cestas</option>
+							<option value="SACOS">Sacos</option>
+					   </select>
+					</div>
+					</div>
+		</div> <!-- fin del contenedor de campos -->
+
+		<!-- linea divisora de campos y botones -->
+		<div class="row">
+			<div class="col-md-12">
+            <hr class="border border-success border-3 opacity-65">
+			</div>
+		</div>
+
+		<!-- Incio de la sección de contenedor de los botones -->
+		<div class="row mt-3 justify-content-left">
+			<div class="col-md-3">
+				<button type="button" class="btn btn-success" id="incluir" >REGISTRAR</button>
+			</div>
+			
+			<div class="col-md-3">	
+		   		<button type="button" class="btn btn-success" id="modificar" >EDITAR</button>
+			</div>
+			<div class="col-md-2">	
+				   <button type="button" class="btn btn-success" id="eliminar" >BORRAR</button>
+			</div>
+			</div>
+			<div class="row mt-3 justify-content-left">
+			<div class="col-md-2">	
+				   <a href="index.html" class="btn btn-success">REGRESAR</a>
+			</div>
+			</div><!-- fin de la sección de contenedor de los botones -->
+
+	</form>
+
+	<div class="col-8 p-4">
+	<div class="container">
+	<h5 class="modal-title text-center text-success">CATEGORIAS REGISTRADAS</h5>
+	<hr class="border border-success border-3 opacity-65">
+	    <!--se coloca un id para enlazar con el datatablet y la configuración de esta en el archivo categoria.js--> 
+		<table class="table table-striped table-hover" id="tablacategoria">
+		<thead>
+		  <tr>
+		  <th style="display: none;">ID de categoria</th>
+			<th>Codigo de categoria</th>
+			<th>Descripción de la categoria</th>
+			<th>Unidad de medida común</th>	
+			<th>Unidad de Medida Alternativa</th>
+		  </tr>
+		</thead>
+		<tbody>
+		<?php
+			if(!empty($consulta)){
+				echo $consulta;
+			}
+		  ?>
+		</tbody>
+		</table>
+		
+    </div>
+</div>
+
+</div> <!-- fin de container -->
+<script type="text/javascript" src="js/categoria.js"></script>
+</html>
