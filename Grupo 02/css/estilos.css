@@ -18,7 +18,7 @@ body {
 }
 
 header {
-  width: 50%;
+  width: 100vh;
   background-image: linear-gradient(to right,#7DDA58,#FFDE59,#FE9900,#E4080A,#BFD641); /* Color de fondo del menú */
 }
 
