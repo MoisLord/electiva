@@ -95,4 +95,38 @@ Frangher Pereira C.I. 30.553.759
         margin: 0;
     }
   }
-  
+
+  h4{
+	text-align: center;
+	color: green;
+	
+	
+}
+th {
+	padding: 20px;
+	color:black;
+    flex-direction: row;
+    display: inline;
+}
+table {
+    
+	position:relative;
+    display: flex;
+}
+
+
+
+button {
+    background-color: #7DDA58;
+}
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  width: 150px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
