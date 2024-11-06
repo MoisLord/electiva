@@ -18,7 +18,7 @@ body {
 }
 
 header {
-  width: 100vh;
+  width: 100%;
   background-image: linear-gradient(to right,#7DDA58,#FFDE59,#FE9900,#E4080A,#BFD641); /* Color de fondo del menú */
 }
 
@@ -28,8 +28,8 @@ header {
 
 header label {
   display: none;
-  width:  30px;
-  height: 30px;
+  width:  10px;
+  height: 10px;
   padding: 10px;
   border-right: 1px solid #fff;
 }
