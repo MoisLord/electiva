@@ -7,67 +7,56 @@ Frangher Pereira C.I. 30.553.759
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <title>Menu horizontal responsive</title>
+        <title>Modelo responsive</title>
         <meta name="viewport" content="width=device-width, user-scalable=no, inicial-scale=1, maximun-scale=1, minimun-scale=1" charset="UTF-8" >
         <link rel="stylesheet" href="css/estilos.css">
     </head>
     <body>
         <header>
-            
-            <input type="checkbox" id="btn-menu">
-            <label for="btn-menu"><img src="img/logo.png" style="width: 25px; direction: ltr; margin-top: -8px; margin-left: -10px;"></label>
-            <nav class="nav-menu">
-                <ul>
-                    <img src="img/logo.png" alt="" style="width:50px;">
-                        <li><a href="indexAE1Grupo02.html" style="font-weight: 600; font-size: 14;">FRUTILARA</a></li>
-                        <li><a href="#" style="font-weight: 600; font-size: 14;">MARCAS DE PRODUCTOS</a></li>
-                        <li><a href="#" style="font-weight: 600; font-size: 14;">MODELO DE PRODUCTOS</a></li>
-                        <li><a href="#" style="font-weight: 600; font-size: 14;">CATEGORIAS DE PRODUCTOS</a></li>
-                        <li><a href="#" style="font-weight: 600; font-size: 14;">PRODUCTOS</a></li>
-                        <li><a href="#" style="font-weight: 600; font-size: 14;">PROVEEDORES</a></li>
-                        <li><a href="#" style="font-weight: 600; font-size: 14;">EMPLEADOS</a></li>
-                        <li><a href="#" style="font-weight: 600; font-size: 14;">CLIENTES</a></li>
-                            <li><a href="#" style="font-weight: 600; font-size: 14;">NOTAS DE ENTRADA</a></li>
-                            <li><a href="#" style="font-weight: 600; font-size: 14;">NOTAS DE SALIDA</a></li>                                               
-                        <li><a href="#" style="font-weight: 600; font-size: 14;">USUARIOS</a></li>
-                </ul>
-            </nav>
-        </header>
-        <div class="carousel">
-            <div class="carousel-inner">
-                
-                <div class="carousel-item">
-                    <img src="img/fondo.jpg" alt="Fondo 1">
-                    <div class="mask"></div>
-                    <div class="carousel-caption">
-                        <h1>Bienvenido a Frutilara</h1>
-                        <p>donde comer saludable es más sabroso</p>
-                    </div>
+            <div class="container text-center h2 text-success">
+                <hr/>
+                <hr/>
+                <hr/>
+                <hr/>
+                <hr/>
+                <hr/>
+                MODELO DE PRODUCTOS
+                <hr class="border border-success border-3 opacity-65">
                 </div>
-            </div>
-        </div>
-        <footer class="footer">
-            <ul class="social-icon">
-                <li>
-                    <a href="https://www.instagram.com/fruti_lara?igsh=MWh5MW9mb3JpOGlxYg==" class="icon">
-                      <img src="img/instagram.png" style="width: 50px;">
-                    </a>
-                </li>
-            </ul>
-            <br>
-            <ul class="menu">
-                <li><a href="#" style="color: aliceblue;">MARCAS DE PRODUCTOS</a></li>
-                <li><a href="#" style="color: aliceblue;">MODELO DE PRODUCTOS</a></li>
-                <li><a href="#" style="color: aliceblue;">CATEGORIAS DE PRODUCTOS</a></li>
-                <li><a href="#" style="color: aliceblue;">PRODUCTOS</a></li>
-                <li><a href="#" style="color: aliceblue;">PROVEEDORES</a></li>
-                <li><a href="#" style="color: aliceblue;">EMPLEADOS</a></li>
-                <li><a href="#" style="color: aliceblue;">CLIENTES</a></li>
-                <li><a href="#" style="color: aliceblue;">INVENTARIO</a></li>
-                <li><a href="#" style="color: aliceblue;">USUARIOS</a></li>
-            </ul>
-            <br>
-            <p style="color: aliceblue;">Frutilara | donde comer saludable es más sabroso</p>
-        </footer>
-        </body>
-    </html>
+                <div class="container-fluid row"> <!-- todo el contenido ira dentro de esta etiqueta-->
+                   <form class="col-4 p-2" method="post" id="f" autocomplete="off">
+                   <h4 class="text-center text-success">Registro de modelos</h4>
+                
+                   <div class="container">	
+                        <div class="row mb-3">
+                            <div class="col-md">
+                               <label for="id_modelo">Codigo de modelo</label>
+                               <input class="form-control" type="text" id="id_modelo" name="id_modelo"/>
+                               <span id="sid_modelo"></span>
+                            </div>
+                            </div>
+                            <div class="row mb-3">
+                            <div class="col-md">
+                               <label for="descripcion_modelo">Descripción del Modelo</label>
+                               <input class="form-control" type="text" id="descripcion_modelo" name="descripcion_modelo"/>
+                               <span id="smodelo"></span>
+                            </div>
+                        </div>
+                        <div class="row mb-4">
+                        <div class="input-group mb-3">
+                        <button type="button" class="btn btn-success" id="listadodeMarca" name="listadodeMarca">LISTADO DE MARCA</button>
+                        <input class="form-control" type="text" id="id_marca" name="id_marca" />
+                        
+                        <span id="sid_marca"></span>
+                        </div>
+                        </div>
+                
+                        <div class="row">
+                        <div class="col">
+                
+                        <hr class="border border-success border-3 opacity-65">
+                        </div>
+                    </div>
+        </header>
+    </body>
+</html>
