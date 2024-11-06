@@ -16,3 +16,17 @@ document.addEventListener("DOMContentLoaded", function() {
         window.location.href = "proveedores.html"; // Redirigir a proveedores.html
     });
 });
+
+// Agregue la funcionalidad de despliegue al boton del menu
+document.addEventListener('DOMContentLoaded', function() {
+    const btnMenu = document.getElementById('btn-menu');
+    const navMenu = document.querySelector('.nav-menu');
+
+    btnMenu.addEventListener('change', function() {
+        if (btnMenu.checked) {
+            navMenu.style.display = 'block'; // Muestra el menú
+        } else {
+            navMenu.style.display = 'none'; // Oculta el menú
+        }
+    });
+});
