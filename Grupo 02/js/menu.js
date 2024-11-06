@@ -15,6 +15,6 @@ document.addEventListener("DOMContentLoaded", function() {
     // Agregar evento de clic para "PROVEEDORES"
     proveedoresLink.addEventListener("click", function(event) {
         event.preventDefault(); // Prevenir el comportamiento por defecto del enlace
-        window.location.href = "proveedores.html"; // Redirigir a modelo.html
+        window.location.href = "proveedores.html"; // Redirigir a proveedores.html
     });
 });
