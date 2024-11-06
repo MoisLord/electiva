@@ -1,5 +1,3 @@
-window.location.reload()
-
 // Esperar a que el DOM esté completamente cargado
 document.addEventListener("DOMContentLoaded", function() {
     // Obtener los elementos de las categorías y proveedores
