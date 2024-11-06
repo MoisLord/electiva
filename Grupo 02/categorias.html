@@ -7,11 +7,7 @@ Frangher Pereira C.I. 30.553.759
 <!DOCTYPE html>
 <html lang="es">
     <title>CATEGORIAS</title>
-<?php require_once("comunes/encabezado.php"); ?>
 <body>
-<!--Llamar al archivo modal.php, y menu.php-->
-<?php require_once("comunes/modal.php"); ?>
-<?php require_once('comunes/menu.php'); ?>
 <div class="container text-center h2 text-success">
 <hr/>
 <hr/>
@@ -114,18 +110,11 @@ CATEGORIAS DE PRODUCTOS
 			<th>Unidad de Medida Alternativa</th>
 		  </tr>
 		</thead>
-		<tbody>
-		<?php
-			if(!empty($consulta)){
-				echo $consulta;
-			}
-		  ?>
-		</tbody>
 		</table>
 		
     </div>
 </div>
 
 </div> <!-- fin de container -->
-<script type="text/javascript" src="js/categoria.js"></script>
+</body>
 </html>
