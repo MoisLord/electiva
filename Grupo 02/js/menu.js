@@ -1,3 +1,9 @@
+/* INTEGRANTES
+Moises Contreras C.I: 30.405.571
+Adrian Duin C.I.: 29.896.041
+David Peña C.I. 30.304.373
+Frangher Pereira C.I. 30.553.759
+*/
 // Esperar a que el DOM esté completamente cargado
 document.addEventListener("DOMContentLoaded", function() {
     // Obtener los elementos de las principal, categorías y proveedores
